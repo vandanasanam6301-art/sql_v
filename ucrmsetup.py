@@ -62,3 +62,10 @@ file.close()
 
 print "Just type ,python master.py, into cli to run the script to pull the user's mac address and there package name into freeradius."
 print "Go to http://,address of server,/daloradius to change set up the packages name and speed so that it will set speed limits for the clients."
+print("end of script")
+print("Please make sure to run the script as root or with sudo privileges")
+
+
+# making change to the ucrmset.py file
+#making changes to the  file to add the ucrm url and api key to the config.ini file so that it can be used in the master.py script
+
